@@ -7728,7 +7728,7 @@ textarea {
     position: fixed;
     top: 0px;
     left: 0;
-    z-index: 11111111;
+    z-index: 1111111111;
 }
 
 .main-navigation-container-overlay {
@@ -9616,7 +9616,7 @@ a.btn-svg:hover.btn-svg, .btn-svg:hover.btn-svg {
 .fw-tabs-container .fw-tabs ul li a {
     position: relative;
     display: block;
-    padding: 17px 20px;
+    padding: 17px;
     font-weight: 700;
     color: #c8c8c8;
     text-decoration: none;
@@ -10829,7 +10829,7 @@ img[class*="wp-image-"],
 
 .is-block-reveal.block-revealer {
     visibility: visible;
-    z-index: 1111111;
+    z-index: 111111111;
 
 }
 .SocialLinks.is-block-reveal.block-revealer {
@@ -15409,6 +15409,7 @@ html, body{
 }
 .main-navigation-container-horizontal{
     padding: 0 !important;
+    width: 100%;
 }
 /*.main-navigation-container-horizontal, .main-navigation-container-inner, .main-navigation-container-horizontal.main-navigation-with-social .main-navigation-menu-horizontal, .main-navigation-menu-horizontal > ul, .main-navigation-menu-horizontal .menu-item-has-children{*/
     /*height: 100%;*/

@@ -760,7 +760,7 @@ jQuery(document).ready(function($){
         }
 
         if ( currentScrollTop > lastScrollTop && currentScrollTop > navStickyHeight && $navSticky.find('.nav-overlay-is-open').length != 1 ) {
-            $navSticky.removeClass('nav-down').addClass('nav-up');
+            // $navSticky.removeClass('nav-down').addClass('nav-up');
            $('.lower').removeClass('lower-active');
         }
         else if ( currentScrollTop + $window.height() < $document.height() ) {
